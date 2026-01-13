@@ -35,4 +35,6 @@ while true; do
 
   # Delay 5 second
   sleep 5
+
+  echo "Loop complete. Repeating..."
 done
