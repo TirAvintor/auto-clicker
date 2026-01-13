@@ -2,8 +2,8 @@
 # sudo apt install xdotool
 
 while true; do
-echo "Waiting 1 minute..."
-sleep 60
+echo "Waiting 50 seconds..."
+sleep 50
 
 echo "Right click on (243, 236)"
 xdotool mousemove 243 236 click 3
@@ -19,10 +19,10 @@ sleep 2
 
 echo "Left click on (941, 459)"
 xdotool mousemove 941 459 click 1
-sleep 4
+sleep 10
 
 echo "Left click on (301, 169)"
 xdotool mousemove 301 169 click 1
 
-echo "Loop complete. Repeating...\n"
+echo "Loop complete. Repeating..."
 done
