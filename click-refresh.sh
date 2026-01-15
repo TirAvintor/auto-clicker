@@ -23,17 +23,17 @@ sleep 10
 
 echo "Left click on (301, 169)"
 xdotool mousemove 301 169 click 1
-sleep 5
+sleep 10
 
 # refresh website
 
 echo "Left click on (93, 105)"
 xdotool mousemove 93 105 click 1
-sleep 10
+sleep 20
 
 echo "Left click on (852, 383)"
 xdotool mousemove 852 383 click 1
-sleep 10
+sleep 20
 
 echo "Left click on (1442, 201)"
 xdotool mousemove 1442 201 click 1
